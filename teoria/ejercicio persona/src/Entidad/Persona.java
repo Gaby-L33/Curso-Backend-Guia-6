@@ -1,23 +1,18 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Crea tu propio proyecto con la clase Persona
  */
 package Entidad;
 
-/**
- *
- * @author Usuario
- */
 public class Persona {
+    //Atributos
     public String Nombre;
     public int Edad;
     public String Sexo;
-
+    //Constructor = instanciar atributos
     public Persona(String Nombre) {
         this.Nombre = Nombre;
     }
-    
+    //Metodo Getter y Setter
     public String getNombre() {
         return Nombre;
     }

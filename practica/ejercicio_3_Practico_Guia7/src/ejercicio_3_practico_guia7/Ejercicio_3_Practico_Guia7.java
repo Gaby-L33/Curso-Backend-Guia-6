@@ -1,7 +1,3 @@
-package ejercicio_3_practico_guia7;
-
-public class Ejercicio_3_Practico_Guia7 {
-
     /**
      * Crear una clase llamada Operacion que tenga como atributos privados
      * numero1 y numero2. A continuación, se deben crear los siguientes métodos:
@@ -18,14 +14,17 @@ public class Ejercicio_3_Practico_Guia7 {
      * el método devuelve 0 y se le informa al usuario el error se le informa al usuario.
      * Si no, se hace la división y se devuelve el resultado al main.
      */
-    
+package ejercicio_3_practico_guia7;
+
+public class Ejercicio_3_Practico_Guia7 {
+ 
     public static void main(String[] args) {
-        Operacion operacion2 = new Operacion().crearOperacion();
+        Operacion resultado = new Operacion().crearOperacion();
         
-        System.out.println(operacion2.sumar(operacion2));
-        System.out.println(operacion2.restar(operacion2));
-        System.out.println(operacion2.multiplicador(operacion2));
-        System.out.println(operacion2.divisor(operacion2));
+        System.out.println(resultado.sumar(resultado));
+        System.out.println(resultado.restar(resultado));
+        System.out.println(resultado.multiplicador(resultado));
+        System.out.println(resultado.divisor(resultado));
     }
 
 }

@@ -1,10 +1,3 @@
-package ejercicio4_guia7;
-
-public class Ejercicio4 {
-    
-    public Ejercicio4() {
-    }
-
     /**
      * Crear una clase Rectángulo que modele rectángulos por medio de un
      * atributo privado base y un atributo privado altura. La clase incluirá un
@@ -16,6 +9,13 @@ public class Ejercicio4 {
      * métodos getters, setters y constructores correspondientes. 
      * Superficie = base * altura / Perímetro = (base + altura) * 2.
      */
+package ejercicio4_guia7;
+
+public class Ejercicio4 {
+    
+    public Ejercicio4() {
+    }
+
     public static void main(String[] args) {
         Rectangulo rectangulo1 = new Rectangulo().crearRectangulo();
         

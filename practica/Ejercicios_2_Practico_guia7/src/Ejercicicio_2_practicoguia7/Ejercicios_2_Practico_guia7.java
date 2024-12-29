@@ -1,7 +1,3 @@
-package Ejercicicio_2_practicoguia7;
-
-public class Ejercicios_2_Practico_guia7 {
-
     /**
      * Declarar una clase llamada Circunferencia que tenga como atributo privado
      * el radio de tipo real. A continuación, se deben crear los siguientes
@@ -13,6 +9,10 @@ public class Ejercicios_2_Practico_guia7 {
      * calcular el perímetro (Perimetro=2*π*radio).
      *
      */
+package Ejercicicio_2_practicoguia7;
+
+public class Ejercicios_2_Practico_guia7 {
+
     public static void main(String[] args) {
         Circunferencia circulo1 = new Circunferencia().crearCircunferencia();
         circulo1.area(circulo1);

@@ -1,10 +1,3 @@
-package Ejercicicio_2_practicoguia7;
-
-
-import java.util.Scanner;
-
-
-
 /**
  * Declarar una clase llamada Circunferencia que tenga como atributo privado
  * el radio de tipo real. A continuación, se deben crear los siguientes
@@ -15,6 +8,10 @@ import java.util.Scanner;
  * d) Método area(): para calcular el área de la circunferencia (Area=〖π*radio〗^2). 
  * e) Método perimetro(): para calcular el perímetro (Perimetro=2*π*radio).
  */
+package Ejercicicio_2_practicoguia7;
+
+import java.util.Scanner;
+
 public class Circunferencia {
 
     private double radio;
@@ -28,14 +25,14 @@ public class Circunferencia {
     
     public Circunferencia crearCircunferencia(){
         Scanner leer = new Scanner(System.in);
-        Circunferencia circulo = new Circunferencia();
+        Circunferencia circulo = new Circunferencia();  //Se instancia un objeto de la clase Circunferencia
         
         System.out.println("Ingrese el radio ");
         circulo.setradio(leer.nextDouble());
         
         return circulo;
     }
-    
+    //Los metodos funcionan igual que las funciones
     public void area(Circunferencia circulo1){
         double area1 = Math.pow((Math.PI*radio),2);
         System.out.println("El area del circulo es "+area1);
